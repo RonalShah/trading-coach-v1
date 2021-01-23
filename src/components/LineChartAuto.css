@@ -1,0 +1,32 @@
+.lineauto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions {
+    flex-direction: row !important;
+}
+
+.btn {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    font-size: 25pt;
+    color: white;
+}
+
+.buy {
+    background-color: green;
+}
+
+.sell {
+    background-color: red;
+}
+
+.reset {
+    background-color: bisque;
+    color: gray;
+}
