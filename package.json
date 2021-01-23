@@ -1,6 +1,6 @@
 {
   "homepage": "http://RonalShah.github.io/trading-coach-v1",
-  "name": "chart-play",
+  "name": "trader-coach-v1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
